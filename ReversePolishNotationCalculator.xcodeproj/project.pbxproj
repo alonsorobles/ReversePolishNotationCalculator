@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF26AAB8153A40BD00309FCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF26AAB7153A40BD00309FCA /* UIKit.framework */; };
+		AF26AABA153A40BD00309FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF26AAB9153A40BD00309FCA /* Foundation.framework */; };
+		AF26AABC153A40BD00309FCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF26AABB153A40BD00309FCA /* CoreGraphics.framework */; };
+		AF26AAC2153A40BD00309FCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF26AAC0153A40BD00309FCA /* InfoPlist.strings */; };
+		AF26AAC4153A40BE00309FCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26AAC3153A40BD00309FCA /* main.m */; };
+		AF26AAC8153A40BE00309FCA /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26AAC7153A40BE00309FCA /* CalculatorAppDelegate.m */; };
+		AF26AACB153A40BE00309FCA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF26AAC9153A40BE00309FCA /* MainStoryboard.storyboard */; };
+		AF26AACE153A40BE00309FCA /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26AACD153A40BE00309FCA /* CalculatorViewController.m */; };
+		AF26AAD6153A40BE00309FCA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF26AAD5153A40BE00309FCA /* SenTestingKit.framework */; };
+		AF26AAD7153A40BE00309FCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF26AAB7153A40BD00309FCA /* UIKit.framework */; };
+		AF26AAD8153A40BE00309FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF26AAB9153A40BD00309FCA /* Foundation.framework */; };
+		AF26AAE0153A40BE00309FCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF26AADE153A40BE00309FCA /* InfoPlist.strings */; };
+		AF26AAE3153A40BE00309FCA /* ReversePolishNotationCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26AAE2153A40BE00309FCA /* ReversePolishNotationCalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF26AAD9153A40BE00309FCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF26AAAA153A40BD00309FCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF26AAB2153A40BD00309FCA;
+			remoteInfo = ReversePolishNotationCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF26AAB3153A40BD00309FCA /* ReversePolishNotationCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReversePolishNotationCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF26AAB7153A40BD00309FCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF26AAB9153A40BD00309FCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF26AABB153A40BD00309FCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF26AABF153A40BD00309FCA /* ReversePolishNotationCalculator-Info.plist */ = {isa = PBXFileReference; path = "ReversePolishNotationCalculator-Info.plist"; sourceTree = "<group>"; };
+		AF26AAC1153A40BD00309FCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF26AAC3153A40BD00309FCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF26AAC5153A40BE00309FCA /* ReversePolishNotationCalculator-Prefix.pch */ = {isa = PBXFileReference; path = "ReversePolishNotationCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		AF26AAC6153A40BE00309FCA /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		AF26AAC7153A40BE00309FCA /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
+		AF26AACA153A40BE00309FCA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AF26AACC153A40BE00309FCA /* CalculatorViewController.h */ = {isa = PBXFileReference; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		AF26AACD153A40BE00309FCA /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		AF26AAD4153A40BE00309FCA /* ReversePolishNotationCalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReversePolishNotationCalculatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF26AAD5153A40BE00309FCA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF26AADD153A40BE00309FCA /* ReversePolishNotationCalculatorTests-Info.plist */ = {isa = PBXFileReference; path = "ReversePolishNotationCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		AF26AADF153A40BE00309FCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF26AAE1153A40BE00309FCA /* ReversePolishNotationCalculatorTests.h */ = {isa = PBXFileReference; path = ReversePolishNotationCalculatorTests.h; sourceTree = "<group>"; };
+		AF26AAE2153A40BE00309FCA /* ReversePolishNotationCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReversePolishNotationCalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF26AAB0153A40BD00309FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF26AAB8153A40BD00309FCA /* UIKit.framework in Frameworks */,
+				AF26AABA153A40BD00309FCA /* Foundation.framework in Frameworks */,
+				AF26AABC153A40BD00309FCA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF26AAD0153A40BE00309FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF26AAD6153A40BE00309FCA /* SenTestingKit.framework in Frameworks */,
+				AF26AAD7153A40BE00309FCA /* UIKit.framework in Frameworks */,
+				AF26AAD8153A40BE00309FCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF26AAA8153A40BD00309FCA = {
+			isa = PBXGroup;
+			children = (
+				AF26AABD153A40BD00309FCA /* ReversePolishNotationCalculator */,
+				AF26AADB153A40BE00309FCA /* ReversePolishNotationCalculatorTests */,
+				AF26AAB6153A40BD00309FCA /* Frameworks */,
+				AF26AAB4153A40BD00309FCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF26AAB4153A40BD00309FCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF26AAB3153A40BD00309FCA /* ReversePolishNotationCalculator.app */,
+				AF26AAD4153A40BE00309FCA /* ReversePolishNotationCalculatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF26AAB6153A40BD00309FCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF26AAB7153A40BD00309FCA /* UIKit.framework */,
+				AF26AAB9153A40BD00309FCA /* Foundation.framework */,
+				AF26AABB153A40BD00309FCA /* CoreGraphics.framework */,
+				AF26AAD5153A40BE00309FCA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF26AABD153A40BD00309FCA /* ReversePolishNotationCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				AF26AAC6153A40BE00309FCA /* CalculatorAppDelegate.h */,
+				AF26AAC7153A40BE00309FCA /* CalculatorAppDelegate.m */,
+				AF26AAC9153A40BE00309FCA /* MainStoryboard.storyboard */,
+				AF26AACC153A40BE00309FCA /* CalculatorViewController.h */,
+				AF26AACD153A40BE00309FCA /* CalculatorViewController.m */,
+				AF26AABE153A40BD00309FCA /* Supporting Files */,
+			);
+			path = ReversePolishNotationCalculator;
+			sourceTree = "<group>";
+		};
+		AF26AABE153A40BD00309FCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF26AABF153A40BD00309FCA /* ReversePolishNotationCalculator-Info.plist */,
+				AF26AAC0153A40BD00309FCA /* InfoPlist.strings */,
+				AF26AAC3153A40BD00309FCA /* main.m */,
+				AF26AAC5153A40BE00309FCA /* ReversePolishNotationCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF26AADB153A40BE00309FCA /* ReversePolishNotationCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF26AAE1153A40BE00309FCA /* ReversePolishNotationCalculatorTests.h */,
+				AF26AAE2153A40BE00309FCA /* ReversePolishNotationCalculatorTests.m */,
+				AF26AADC153A40BE00309FCA /* Supporting Files */,
+			);
+			path = ReversePolishNotationCalculatorTests;
+			sourceTree = "<group>";
+		};
+		AF26AADC153A40BE00309FCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF26AADD153A40BE00309FCA /* ReversePolishNotationCalculatorTests-Info.plist */,
+				AF26AADE153A40BE00309FCA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF26AAB2153A40BD00309FCA /* ReversePolishNotationCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF26AAE6153A40BE00309FCA /* Build configuration list for PBXNativeTarget "ReversePolishNotationCalculator" */;
+			buildPhases = (
+				AF26AAAF153A40BD00309FCA /* Sources */,
+				AF26AAB0153A40BD00309FCA /* Frameworks */,
+				AF26AAB1153A40BD00309FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReversePolishNotationCalculator;
+			productName = ReversePolishNotationCalculator;
+			productReference = AF26AAB3153A40BD00309FCA /* ReversePolishNotationCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF26AAD3153A40BE00309FCA /* ReversePolishNotationCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF26AAE9153A40BE00309FCA /* Build configuration list for PBXNativeTarget "ReversePolishNotationCalculatorTests" */;
+			buildPhases = (
+				AF26AACF153A40BE00309FCA /* Sources */,
+				AF26AAD0153A40BE00309FCA /* Frameworks */,
+				AF26AAD1153A40BE00309FCA /* Resources */,
+				AF26AAD2153A40BE00309FCA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF26AADA153A40BE00309FCA /* PBXTargetDependency */,
+			);
+			name = ReversePolishNotationCalculatorTests;
+			productName = ReversePolishNotationCalculatorTests;
+			productReference = AF26AAD4153A40BE00309FCA /* ReversePolishNotationCalculatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF26AAAA153A40BD00309FCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Calculator;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AF26AAAD153A40BD00309FCA /* Build configuration list for PBXProject "ReversePolishNotationCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF26AAA8153A40BD00309FCA;
+			productRefGroup = AF26AAB4153A40BD00309FCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF26AAB2153A40BD00309FCA /* ReversePolishNotationCalculator */,
+				AF26AAD3153A40BE00309FCA /* ReversePolishNotationCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF26AAB1153A40BD00309FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF26AAC2153A40BD00309FCA /* InfoPlist.strings in Resources */,
+				AF26AACB153A40BE00309FCA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF26AAD1153A40BE00309FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF26AAE0153A40BE00309FCA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF26AAD2153A40BE00309FCA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF26AAAF153A40BD00309FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF26AAC4153A40BE00309FCA /* main.m in Sources */,
+				AF26AAC8153A40BE00309FCA /* CalculatorAppDelegate.m in Sources */,
+				AF26AACE153A40BE00309FCA /* CalculatorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF26AACF153A40BE00309FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF26AAE3153A40BE00309FCA /* ReversePolishNotationCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF26AADA153A40BE00309FCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF26AAB2153A40BD00309FCA /* ReversePolishNotationCalculator */;
+			targetProxy = AF26AAD9153A40BE00309FCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF26AAC0153A40BD00309FCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF26AAC1153A40BD00309FCA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF26AAC9153A40BE00309FCA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF26AACA153A40BE00309FCA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AF26AADE153A40BE00309FCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF26AADF153A40BE00309FCA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF26AAE4153A40BE00309FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF26AAE5153A40BE00309FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF26AAE7153A40BE00309FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReversePolishNotationCalculator/ReversePolishNotationCalculator-Prefix.pch";
+				INFOPLIST_FILE = "ReversePolishNotationCalculator/ReversePolishNotationCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF26AAE8153A40BE00309FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReversePolishNotationCalculator/ReversePolishNotationCalculator-Prefix.pch";
+				INFOPLIST_FILE = "ReversePolishNotationCalculator/ReversePolishNotationCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AF26AAEA153A40BE00309FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReversePolishNotationCalculator.app/ReversePolishNotationCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReversePolishNotationCalculator/ReversePolishNotationCalculator-Prefix.pch";
+				INFOPLIST_FILE = "ReversePolishNotationCalculatorTests/ReversePolishNotationCalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AF26AAEB153A40BE00309FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReversePolishNotationCalculator.app/ReversePolishNotationCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReversePolishNotationCalculator/ReversePolishNotationCalculator-Prefix.pch";
+				INFOPLIST_FILE = "ReversePolishNotationCalculatorTests/ReversePolishNotationCalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF26AAAD153A40BD00309FCA /* Build configuration list for PBXProject "ReversePolishNotationCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF26AAE4153A40BE00309FCA /* Debug */,
+				AF26AAE5153A40BE00309FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF26AAE6153A40BE00309FCA /* Build configuration list for PBXNativeTarget "ReversePolishNotationCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF26AAE7153A40BE00309FCA /* Debug */,
+				AF26AAE8153A40BE00309FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF26AAE9153A40BE00309FCA /* Build configuration list for PBXNativeTarget "ReversePolishNotationCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF26AAEA153A40BE00309FCA /* Debug */,
+				AF26AAEB153A40BE00309FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF26AAAA153A40BD00309FCA /* Project object */;
+}
