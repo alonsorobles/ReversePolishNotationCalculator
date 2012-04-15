@@ -20,6 +20,7 @@
 		AF26AAD8153A40BE00309FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF26AAB9153A40BD00309FCA /* Foundation.framework */; };
 		AF26AAE0153A40BE00309FCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF26AADE153A40BE00309FCA /* InfoPlist.strings */; };
 		AF26AAE3153A40BE00309FCA /* ReversePolishNotationCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26AAE2153A40BE00309FCA /* ReversePolishNotationCalculatorTests.m */; };
+		AF26AAEE153A4C7500309FCA /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26AAED153A4C7500309FCA /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,23 @@
 		AF26AAB7153A40BD00309FCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AF26AAB9153A40BD00309FCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF26AABB153A40BD00309FCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AF26AABF153A40BD00309FCA /* ReversePolishNotationCalculator-Info.plist */ = {isa = PBXFileReference; path = "ReversePolishNotationCalculator-Info.plist"; sourceTree = "<group>"; };
+		AF26AABF153A40BD00309FCA /* ReversePolishNotationCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReversePolishNotationCalculator-Info.plist"; sourceTree = "<group>"; };
 		AF26AAC1153A40BD00309FCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF26AAC3153A40BD00309FCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AF26AAC5153A40BE00309FCA /* ReversePolishNotationCalculator-Prefix.pch */ = {isa = PBXFileReference; path = "ReversePolishNotationCalculator-Prefix.pch"; sourceTree = "<group>"; };
-		AF26AAC6153A40BE00309FCA /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		AF26AAC5153A40BE00309FCA /* ReversePolishNotationCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReversePolishNotationCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		AF26AAC6153A40BE00309FCA /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
 		AF26AAC7153A40BE00309FCA /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
 		AF26AACA153A40BE00309FCA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		AF26AACC153A40BE00309FCA /* CalculatorViewController.h */ = {isa = PBXFileReference; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		AF26AACC153A40BE00309FCA /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		AF26AACD153A40BE00309FCA /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		AF26AAD4153A40BE00309FCA /* ReversePolishNotationCalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReversePolishNotationCalculatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF26AAD5153A40BE00309FCA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		AF26AADD153A40BE00309FCA /* ReversePolishNotationCalculatorTests-Info.plist */ = {isa = PBXFileReference; path = "ReversePolishNotationCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		AF26AADD153A40BE00309FCA /* ReversePolishNotationCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReversePolishNotationCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		AF26AADF153A40BE00309FCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AF26AAE1153A40BE00309FCA /* ReversePolishNotationCalculatorTests.h */ = {isa = PBXFileReference; path = ReversePolishNotationCalculatorTests.h; sourceTree = "<group>"; };
+		AF26AAE1153A40BE00309FCA /* ReversePolishNotationCalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReversePolishNotationCalculatorTests.h; sourceTree = "<group>"; };
 		AF26AAE2153A40BE00309FCA /* ReversePolishNotationCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReversePolishNotationCalculatorTests.m; sourceTree = "<group>"; };
+		AF26AAEC153A4C7500309FCA /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		AF26AAED153A4C7500309FCA /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				AF26AAC6153A40BE00309FCA /* CalculatorAppDelegate.h */,
 				AF26AAC7153A40BE00309FCA /* CalculatorAppDelegate.m */,
 				AF26AAC9153A40BE00309FCA /* MainStoryboard.storyboard */,
+				AF26AAEC153A4C7500309FCA /* Calculator.h */,
+				AF26AAED153A4C7500309FCA /* Calculator.m */,
 				AF26AACC153A40BE00309FCA /* CalculatorViewController.h */,
 				AF26AACD153A40BE00309FCA /* CalculatorViewController.m */,
 				AF26AABE153A40BD00309FCA /* Supporting Files */,
@@ -261,6 +266,7 @@
 				AF26AAC4153A40BE00309FCA /* main.m in Sources */,
 				AF26AAC8153A40BE00309FCA /* CalculatorAppDelegate.m in Sources */,
 				AF26AACE153A40BE00309FCA /* CalculatorViewController.m in Sources */,
+				AF26AAEE153A4C7500309FCA /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
