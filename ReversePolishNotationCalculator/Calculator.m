@@ -25,7 +25,7 @@
     return _operandStack;
 }
 
-- (void) push:(double)operand {
+- (void) pushOperand:(double)operand {
     [self.operandStack addObject:[NSNumber numberWithDouble:operand]];
 }
 
@@ -35,7 +35,7 @@
     return [operand doubleValue];
 }
 
-- (double) perform:(NSString *)operation {
+- (double) performOperation:(NSString *)operation {
     double result = 0;
     
     if ([operation isEqualToString:@"+"]) {
@@ -46,11 +46,10 @@
         result = [self popOperand] * [self popOperand];
     } else if ([operation isEqualToString:@"/"]) {
         double divisor = [self popOperand];
-        double dividend = [self popOperand];
-        result = dividend / divisor;
+        if (divisor) result = [self popOperand] / divisor;
     }
     
-    [self push:result];
+    [self pushOperand:result];
     
     return result;
 }

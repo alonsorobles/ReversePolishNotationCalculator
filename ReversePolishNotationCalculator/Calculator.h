@@ -10,7 +10,7 @@
 
 @interface Calculator : NSObject
 
-- (void) push:(double)operand;
-- (double) perform:(NSString *)operation;
+- (void) pushOperand:(double)operand;
+- (double) performOperation:(NSString *)operation;
 
 @end
