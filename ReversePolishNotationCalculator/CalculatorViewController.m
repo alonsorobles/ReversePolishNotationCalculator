@@ -47,4 +47,12 @@
     self.userIsCurrentlyEnteringAnOperand = NO;
 }
 
+- (IBAction)decimalPressed {
+    NSString *decimal = @".";
+    if([self.display.text rangeOfString:decimal].location == NSNotFound) {
+        self.display.text = [self.display.text stringByAppendingString:decimal];
+        self.userIsCurrentlyEnteringAnOperand = YES;
+    };
+}
+
 @end
