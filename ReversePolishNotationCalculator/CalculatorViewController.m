@@ -18,6 +18,7 @@
 
 @implementation CalculatorViewController
 @synthesize display = _display;
+@synthesize historyDisplay = _historyDisplay;
 @synthesize userIsCurrentlyEnteringAnOperand = _userIsCurrentlyEnteringAnOperand;
 @synthesize calculator = _calculator;
 
@@ -37,12 +38,15 @@
 }
 
 - (IBAction)operationPressed:(UIButton *)sender {
+    NSString *operation = sender.currentTitle;
     if (self.userIsCurrentlyEnteringAnOperand) [self enterPressed];
-    double result = [self.calculator performOperation:sender.currentTitle];
+    [self recordHistory:operation];
+    double result = [self.calculator performOperation:operation];
     self.display.text = [NSString stringWithFormat:@"%g", result];
 }
 
 - (IBAction)enterPressed {
+    [self recordHistory:self.display.text];
     [self.calculator pushOperand:[self.display.text doubleValue]];
     self.userIsCurrentlyEnteringAnOperand = NO;
 }
@@ -53,6 +57,12 @@
         self.display.text = [self.display.text stringByAppendingString:decimal];
         self.userIsCurrentlyEnteringAnOperand = YES;
     };
+}
+
+- (void)recordHistory:(NSString *)text {
+    if ([text length] > 0) {
+        self.historyDisplay.text = [self.historyDisplay.text stringByAppendingFormat:@" %@", text];
+    }
 }
 
 @end
