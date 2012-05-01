@@ -36,7 +36,7 @@
     }
 }
 
-- (IBAction)operandPressed:(UIButton *)sender {
+- (IBAction)operationPressed:(UIButton *)sender {
     if (self.userIsCurrentlyEnteringAnOperand) [self enterPressed];
     double result = [self.calculator performOperation:sender.currentTitle];
     self.display.text = [NSString stringWithFormat:@"%g", result];

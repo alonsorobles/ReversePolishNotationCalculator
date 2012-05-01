@@ -57,6 +57,14 @@
         } else if ([operation isEqualToString:@"/"]) {
             double divisor = [self popOperandOffStack:stack];
             if (divisor) result = [self popOperandOffStack:stack] / divisor;
+        } else if ([operation isEqualToString:@"sin"]) {
+            result = sin([self popOperandOffStack:stack]);
+        } else if ([operation isEqualToString:@"cos"]) {
+            result = cos([self popOperandOffStack:stack]);
+        } else if ([operation isEqualToString:@"sqrt"]) {
+            result = sqrt([self popOperandOffStack:stack]);
+        } else if ([operation isEqualToString:@"π"]) {
+            result = M_PI;
         }
     }
     return result;
